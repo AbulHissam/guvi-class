@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      } */
+      table,
+      th,
+      td {
+        border: 1px solid #000;
+        border-collapse: collapse;
+      }
+
+      form {
+        display: inline-block;
+      }
+      td span {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <table>
+        <thead>
+          <tr>
+            <th colspan="2">
+              Request for New PAN Card and/or Changes or correction in PAN Data
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <!-- <td>&nbsp;</td> -->
+            <td>
+              <span><strong>&ast;&nbsp;Whether citizen of India</strong></span>
+              <label for="yes">Yes</label>
+              <input type="radio" id="yes" />
+              <label for="no">No</label>
+              <input type="radio" id="no" />
+            </td>
+          </tr>
+          <tr>
+            <!-- <td>&nbsp;</td> -->
+            <td>
+              <span>&ast;&nbsp;Permanent Account Number<span />
+                  <input type="text" id="pan" />
+            </td>
+          </tr> 
+          <tr>
+          <!-- <td><input type="checkbox"></td> -->
+          <td>
+            <span><strong> &ast;&nbsp;1.Name</strong><span />
+          </td>
+        </tr>
+        <tr>
+          <!-- <td>&nbs;</td> -->
+          <td>
+            <span><strong>Title</strong></span>
+            <form>
+              <label for="mr">Shri/Mr</label>
+              <input type="radio" id='mr'>
+              <label for="mrs">Shmt./Mrs</label>
+              <input type="radio" id='mrs'>
+              <label for='ms'>Kumari/Ms</label>
+              <input type="radio" id='ms'>
+            </form>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+    </form>
+  </body>
+</html>

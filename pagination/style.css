@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.pagination-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+table {
+  width: 75%;
+}
+tr {
+  display: flex;
+  justify-content: space-between;
+}
+td {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+button {
+  width: 100%;
+}
+@media screen and (max-width: 576px) {
+  table {
+    width: 50%;
+  }
+  td {
+    flex-grow: 0;
+  }
+}

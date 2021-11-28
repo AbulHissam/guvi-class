@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+th,
+td {
+  text-align: center;
+}
+td:first-child,
+span {
+  font-size: 14px;
+  font-style: italic;
+}
+td:first-child {
+  text-align: start;
+  width: 120px;
+}
+.outer-container {
+  margin: 0 auto;
+  padding: 20px 0;
+  max-width: 75vw;
+}
+.red-asterik {
+  color: red;
+}
+.stars-container {
+  color: gold;
+}
