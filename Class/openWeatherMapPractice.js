@@ -1,5 +1,5 @@
 var req = new XMLHttpRequest();
-const apiKey = "d52c0075ae1e9e2ccb6aef2e9c5b3a67";
+// Removed api key
 req.open("GET", `https://restcountries.com/v3/all`, true);
 // req.open("GET", `https://restcountries.com/v3/capital/${capital}`, true);
 req.send();
